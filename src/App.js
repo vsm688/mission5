@@ -1,12 +1,14 @@
-import './App.css';
+import BannerHolder from "./components/BannerHolder";
+import BottomButtonGroup from "./components/BottomButtonGroup";
+import GlobalStyle from "./global/GlobalStyle";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>I LOVE HAYDEN</p>
-      </header>
-    </div>
+    <>
+      <GlobalStyle></GlobalStyle>
+      <BannerHolder></BannerHolder>
+      <BottomButtonGroup></BottomButtonGroup>
+    </>
   );
 }
 
