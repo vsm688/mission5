@@ -1,14 +1,24 @@
-import React from 'react'
-import { StyledBannerHolder } from './styles/BannerHolder.Styled'
+import React from "react";
+import {
+  StyledBannerHolder,
+  StyledBannerImg,
+  
+} from "./styles/BannerHolder.Styled";
 
 const BannerHolder = () => {
   return (
     <StyledBannerHolder>
-      <img src={"images/money.png"} alt="money"></img>
-      <img src={"images/money.png"} alt="we buy cars!"></img>
-      <img src={"images/money.png"} alt ="turners site"></img>
+      <StyledBannerImg>
+        <img src={"images/money.png"} alt=" money"></img>
+      </StyledBannerImg>{" "}
+      <StyledBannerImg>
+        <img src={"images/blue.png"} alt=" money"></img>
+      </StyledBannerImg>{" "}
+      <StyledBannerImg>
+        <img src={"images/turnerslot.png"} alt=" money"></img>
+      </StyledBannerImg>
     </StyledBannerHolder>
-  )
-}
+  );
+};
 
-export default BannerHolder
+export default BannerHolder;
