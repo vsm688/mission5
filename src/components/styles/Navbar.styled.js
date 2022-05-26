@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import { Link } from "react-router-dom";
 
 export const StyledNavBar = styled.header`
     display:flex;
@@ -78,11 +78,13 @@ export const StyledNavBarDropDownMenu = styled.div`
 
 `
 
-export const StyledNavBarDropDownMenuItem = styled.a`
+export const StyledNavBarDropDownMenuItem = styled(Link)`
     box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
     margin-bottom: 1px;
     filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
     padding: 0 15px;
+    text-decoration: none;
+    color: #000000;
     &:hover{
         background-color: #C4C4C4;
         cursor: pointer;

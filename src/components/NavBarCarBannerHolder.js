@@ -11,6 +11,7 @@ import {
   StyledNavBarDropDownMenuItem,
 } from "./styles/Navbar.styled";
 
+
 const NavBarCarBannerHolder = () => {
   return (
     <>
@@ -34,9 +35,9 @@ const NavBarCarBannerHolder = () => {
           <StyledNavBarListItem>
             <StyledNavBarButton>Insurance</StyledNavBarButton>
             <StyledNavBarDropDownMenu className={"insurance-items"}>
-                <StyledNavBarDropDownMenuItem>Get A Quote</StyledNavBarDropDownMenuItem>
-                <StyledNavBarDropDownMenuItem>Claim</StyledNavBarDropDownMenuItem>
-                <StyledNavBarDropDownMenuItem>Retrieve A Quote</StyledNavBarDropDownMenuItem>
+                <StyledNavBarDropDownMenuItem to = {"/"}>Get A Quote</StyledNavBarDropDownMenuItem>
+                <StyledNavBarDropDownMenuItem to = {"/claimform"}>Claim</StyledNavBarDropDownMenuItem>
+                <StyledNavBarDropDownMenuItem to = {"/"}>Retrieve A Quote</StyledNavBarDropDownMenuItem>
             </StyledNavBarDropDownMenu>
           </StyledNavBarListItem>
           <StyledNavBarListItem>Finance</StyledNavBarListItem>
