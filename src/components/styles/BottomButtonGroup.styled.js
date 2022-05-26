@@ -52,7 +52,7 @@ export const StyledRoundButtonDrawCircle = styled.div`
   height: 0;
   padding-bottom: 60%;
   border-radius: 50%;
-  border: 1px solid black;
+  border: 1px solid #2E98FB;
   display: flex;
   justify-content: center;
   align-items: center;

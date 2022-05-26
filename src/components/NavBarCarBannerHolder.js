@@ -6,9 +6,10 @@ import {
   StyledNavBarListItemQuestion,
   StyledNavBarTop,
   StyledSignInRegisterButton,
-
+  StyledNavBarButton,
+  StyledNavBarDropDownMenu,
+  StyledNavBarDropDownMenuItem,
 } from "./styles/Navbar.styled";
-import { StyledBlueCarImage } from "./styles/BlueCarImage.styled";
 
 const NavBarCarBannerHolder = () => {
   return (
@@ -19,19 +20,31 @@ const NavBarCarBannerHolder = () => {
       </StyledNavBarTop>
       <StyledNavBar>
         <StyledNavBarList>
-          <StyledNavBarListItem><img src={"svg/turnerslogo.svg"} alt="turners logo"></img></StyledNavBarListItem>
-          <StyledNavBarListItem>My Account</StyledNavBarListItem>
-          <StyledNavBarListItem>Buy A Car</StyledNavBarListItem>
+          <StyledNavBarListItem>
+            <img src={"svg/turnerslogo.svg"} alt="turners logo"></img>
+          </StyledNavBarListItem>
+
+          <StyledNavBarListItem>
+            <StyledNavBarButton>Buy A Car</StyledNavBarButton>
+          </StyledNavBarListItem>
           <StyledNavBarListItem>Sell A Car</StyledNavBarListItem>
+
           <StyledNavBarListItem>Auction</StyledNavBarListItem>
-          <StyledNavBarListItem>Insurance</StyledNavBarListItem>
+
+          <StyledNavBarListItem>
+            <StyledNavBarButton>Insurance</StyledNavBarButton>
+            <StyledNavBarDropDownMenu className={"insurance-items"}>
+                <StyledNavBarDropDownMenuItem>Get A Quote</StyledNavBarDropDownMenuItem>
+                <StyledNavBarDropDownMenuItem>Claim</StyledNavBarDropDownMenuItem>
+                <StyledNavBarDropDownMenuItem>Retrieve A Quote</StyledNavBarDropDownMenuItem>
+            </StyledNavBarDropDownMenu>
+          </StyledNavBarListItem>
           <StyledNavBarListItem>Finance</StyledNavBarListItem>
-          <StyledNavBarListItemQuestion><img src={"svg/question.svg"} alt="questionmark icon"></img></StyledNavBarListItemQuestion>
+          <StyledNavBarListItemQuestion>
+            <img src={"svg/question.svg"} alt="questionmark icon"></img>
+          </StyledNavBarListItemQuestion>
         </StyledNavBarList>
       </StyledNavBar>
-      <StyledBlueCarImage>
-        <img src={"/images/bmwcar.png"} alt="bmw car"></img>
-      </StyledBlueCarImage>
     </>
   );
 };
