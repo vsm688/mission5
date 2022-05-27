@@ -66,6 +66,7 @@ export const StyledRoundButtonContainer = styled.div`
   display: flex;
   height: 20%;
   justify-content: center;
+  font-family: 'Inter', sans-serif;
 `;
 
 export const StyledRoundButtonText = styled.p`
@@ -73,4 +74,5 @@ export const StyledRoundButtonText = styled.p`
   justify-content: center;
   font-size: 20px;
   align-items: center;
+  font-family: 'Inter', sans-serif;
 `;

@@ -6,6 +6,7 @@ export const StyledRadioButtonsContainer = styled.div`
 `;
 
 export const StyledRadioButtonWrapperInner = styled.div`
+  font-family: 'Inter', sans-serif;
   input[type="radio"] {
     padding: 0.5em;
     -webkit-appearance: none;
@@ -32,6 +33,7 @@ export const StyledRadioButtonWrapper = styled.label`
 export const PolicyHeaderDetails = styled.div`
   display: flex;
   flex-direction: column;
+  font-family: 'Inter', sans-serif;
 `;
 export const PolicyHoldersForm = styled.form`
   display: flex;
@@ -43,8 +45,9 @@ export const PolicyHeadersFormInput = styled.input`
   width: 100%;
   height: 20px;
   border: 1.36364px solid #d5d8de;
-  border-radius: 5.45455px;
+  border-radius: 3px;
   margin-bottom: 20px;
+  
 `;
 
 export const StyledYesNoQuestions = styled.div`
@@ -56,6 +59,8 @@ export const StyledYesNoQuestions = styled.div`
 export const StyledYesnoActualQuestion = styled.div`
   display: flex;
   justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  
 `;
 
 export const StyledYesNoButtonGroup = styled.div`
@@ -64,6 +69,7 @@ export const StyledYesNoButtonGroup = styled.div`
     border: none;
     margin-left: 10px;
     color: #2e98fb;
+    font-family: 'Inter', sans-serif;
   }
 `;
 
@@ -94,6 +100,7 @@ export const StyledFormProgressWrapperInner = styled.div`
   p {
     margin-left: 5px;
     font-size: 1.5em;
+    font-family: 'Inter', sans-serif;
   }
 `;
 

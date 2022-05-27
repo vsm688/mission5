@@ -17,6 +17,7 @@ export const StyledNavBarListItem = styled.li`
     align-items: center;
     flex-direction: column;
     width: calc(100vw / 7);
+    font-family: 'Inter', sans-serif;
 
     &:hover{
         cursor: pointer;
@@ -50,6 +51,7 @@ export const StyledNavBarTop = styled.div`
 export const StyledSignInRegisterButton = styled.div`
     display:flex;
     padding: 10px;
+    font-family: 'Inter', sans-serif;
 `
 
 export const StyledSocialsContainer = styled.div`
@@ -66,7 +68,7 @@ export const StyledSocialsContainer = styled.div`
 `
 
 export const StyledNavBarButton = styled.div`
-   
+    font-family: 'Inter', sans-serif;
 `
 
 export const StyledNavBarDropDownMenu = styled.div`

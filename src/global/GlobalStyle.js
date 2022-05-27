@@ -1,9 +1,11 @@
 import { createGlobalStyle } from "styled-components";
 
+
 const GlobalStyle = createGlobalStyle`
     body{
         margin :0;
         padding :0;
+        
           
     }
     #root{
@@ -11,6 +13,8 @@ const GlobalStyle = createGlobalStyle`
         flex-direction: column;
     
     }
+  
+    
 `
 
 export default GlobalStyle;
