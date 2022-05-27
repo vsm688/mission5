@@ -123,7 +123,7 @@ const PersonalDetailsForm = () => {
                 }}
               ></StyledRadioButton>
             </StyledRadioButtonWrapperInner>
-            <p>I hit someone</p>
+            <p>Someone hit me</p>
           </StyledRadioButtonWrapper>
           <StyledRadioButtonWrapper>
             <StyledRadioButtonWrapperInner>
@@ -135,7 +135,7 @@ const PersonalDetailsForm = () => {
                 }}
               ></StyledRadioButton>
             </StyledRadioButtonWrapperInner>
-            <p>I hit someone</p>
+            <p>Public Incident</p>
           </StyledRadioButtonWrapper>
           <StyledRadioButtonWrapper>
             <StyledRadioButtonWrapperInner>
@@ -147,7 +147,7 @@ const PersonalDetailsForm = () => {
                 }}
               ></StyledRadioButton>
             </StyledRadioButtonWrapperInner>
-            <p>I hit someone</p>
+            <p>Random Incident</p>
           </StyledRadioButtonWrapper>
         </StyledRadioButtonsContainer>
         <PolicyHeaderDetails>
@@ -167,7 +167,7 @@ const PersonalDetailsForm = () => {
           <PolicyHeadersFormInput onChange={(e) => {
             handleFormInputChange(e, "PolicyHolderLicenseVersion", e.target.value)
           }} placeholder={"License Version No"}></PolicyHeadersFormInput>
-          <h1>Policy Holder's Details</h1>
+          <h1>Person Driving or Incharge of the Vehicle if Not the Policy Holder</h1>
           <PolicyHeadersFormInput onChange={(e) => {
             handleFormInputChange(e, "Name", e.target.value)
           }} placeholder={"Name"}></PolicyHeadersFormInput>
